@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Trade Flow Support</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f7f8fb;
+      --text: #111827;
+      --muted: #4b5563;
+      --card: #ffffff;
+      --border: #e5e7eb;
+      --accent: #0b78d0;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0b0f17;
+        --text: #f8fafc;
+        --muted: #cbd5e1;
+        --card: #111827;
+        --border: #243244;
+        --accent: #5eead4;
+      }
+    }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.6;
+    }
+    main {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 48px 20px;
+    }
+    article {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 28px;
+    }
+    h1 {
+      margin: 0 0 8px;
+      font-size: 32px;
+      line-height: 1.15;
+    }
+    h2 {
+      margin-top: 28px;
+      font-size: 20px;
+    }
+    p, li {
+      color: var(--muted);
+    }
+    a {
+      color: var(--accent);
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <article>
+      <h1>Trade Flow Support</h1>
+      <p>Trade Flow is a local risk calculator and execution journal for traders.</p>
+
+      <h2>Contact</h2>
+      <p>For support, feedback, or privacy questions, contact: <a href="mailto:support@example.com">support@example.com</a></p>
+
+      <h2>Common Questions</h2>
+      <p><strong>Does Trade Flow place trades?</strong><br>No. Trade Flow is not a brokerage app and does not execute orders.</p>
+
+      <p><strong>Where is my journal stored?</strong><br>Your journal is stored locally on your device. If you enable Notion sync, journal entries are also sent to your configured Notion database.</p>
+
+      <p><strong>Do I need Notion?</strong><br>No. Notion sync is optional. The app works as a local calculator and journal without Notion.</p>
+
+      <p><strong>How do I delete my data?</strong><br>You can delete trades in the app. You can remove all local app data by deleting the app from your device. If you synced data to Notion, delete it from your Notion database as well.</p>
+
+      <h2>Privacy Policy</h2>
+      <p>Read the <a href="./privacy.html">Privacy Policy</a>.</p>
+    </article>
+  </main>
+</body>
+</html>
